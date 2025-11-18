@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/odin.github.io/static/css/main.53d81054.css",
-    "main.js": "/odin.github.io/static/js/main.4d8eb959.js",
-    "static/js/453.8ab44547.chunk.js": "/odin.github.io/static/js/453.8ab44547.chunk.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/odin.github.io/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/odin.github.io/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/odin.github.io/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/odin.github.io/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/odin.github.io/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/odin.github.io/index.html",
-    "main.53d81054.css.map": "/odin.github.io/static/css/main.53d81054.css.map",
-    "main.4d8eb959.js.map": "/odin.github.io/static/js/main.4d8eb959.js.map",
-    "453.8ab44547.chunk.js.map": "/odin.github.io/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "/odin/static/css/main.cff993e7.css",
+    "main.js": "/odin/static/js/main.3940189b.js",
+    "static/js/453.8ab44547.chunk.js": "/odin/static/js/453.8ab44547.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/odin/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/odin/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/odin/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/odin/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/odin/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/odin/index.html",
+    "main.cff993e7.css.map": "/odin/static/css/main.cff993e7.css.map",
+    "main.3940189b.js.map": "/odin/static/js/main.3940189b.js.map",
+    "453.8ab44547.chunk.js.map": "/odin/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53d81054.css",
-    "static/js/main.4d8eb959.js"
+    "static/css/main.cff993e7.css",
+    "static/js/main.3940189b.js"
   ]
 }
