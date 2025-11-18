@@ -42,7 +42,7 @@ const FigureViewer = () => {
                             __html: `
                             <x3d width="100%" height="600px">
                                 <scene>
-                                <inline url="/${protoclusterName}${isLAB ? "-LAB" : ""}.x3d"></inline>
+                                <inline url="${process.env.PUBLIC_URL}/${protoclusterName}${isLAB ? "-LAB" : ""}.x3d"></inline>
                                 </scene>
                             </x3d>
                             `,

@@ -46,7 +46,7 @@ const Home = () => {
                                 __html: `
                                 <x3d width="100%" height="600px">
                                     <scene>
-                                    <inline url="/COSMOS-z3.1-A-LAB.x3d"></inline>
+                                    <inline url="${process.env.PUBLIC_URL}/COSMOS-z3.1-A.x3d"></inline>
                                     </scene>
                                 </x3d>
                                 `,

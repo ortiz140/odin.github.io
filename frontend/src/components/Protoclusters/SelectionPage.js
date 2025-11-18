@@ -54,7 +54,7 @@ const SelectionPage = () => {
                 height="744.1"
                 loading="lazy"
                 sizes="auto, (max-width: 30em) 100vw, (max-width: 50em) 50vw, calc(33vw - 100px)"
-                src="/cosmos_xmm_3d_structures_all.png"
+                src={`${process.env.PUBLIC_URL}/cosmos_xmm_3d_structures_all.png`}
                 alt="GXX" />
             </div>
             <div className="mt-1">

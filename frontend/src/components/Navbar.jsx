@@ -1,10 +1,8 @@
 import React from 'react';
 import "./Navbar.css"
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-
-    const navigate = useNavigate(); // Initialize navigation
 
     return (
         <div>
@@ -18,10 +16,10 @@ const Navbar = () => {
                     <>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/">Home</a>
+                    <Link className="nav-link active" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="/protoclusters">Protoclusters</a>
+                    <Link className="nav-link active" to="/protoclusters">Protoclusters</Link>
                     </li>
                     </ul>
                     
