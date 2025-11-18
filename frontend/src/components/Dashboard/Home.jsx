@@ -1,12 +1,14 @@
 import React, {useEffect} from 'react';
+import { useLocation } from 'react-router-dom';
 
 const Home = () => {
+    const location = useLocation();
 
     useEffect(() => {
         if (window.x3dom?.reload) {
             window.x3dom.reload();
         }
-    }, []);
+    }, [location]);
     
     return (
         <div>
