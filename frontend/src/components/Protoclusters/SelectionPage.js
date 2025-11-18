@@ -21,10 +21,10 @@ const SelectionPage = () => {
 
     // Using object literal notation
     let dictionary = {};
-    dictionary["COSMOS/N419"] = [];
+    //dictionary["COSMOS/N419"] = [];
     dictionary["COSMOS/N501"] = ["COSMOS-z3.1-A", "COSMOS-z3.1-C"];
-    dictionary["XMM-LSS/N419"] = [];
-    dictionary["XMM-LSS/N501"] = [];
+    //dictionary["XMM-LSS/N419"] = [];
+    //dictionary["XMM-LSS/N501"] = [];
     console.log(dictionary);
 
     const [field, setField] = useState("");
@@ -59,7 +59,18 @@ const SelectionPage = () => {
             </div>
             <div className="mt-1">
                 <p>Protocluster candidates in the COSMOS and XMM-LSS fields.<br/>
-                <span style={{ color: 'orange'}}>Orange:</span> structures from Ramakrishnan et al. (2025b).<br/>
+                <span style={{ color: 'orange'}}>Orange:</span> structures from Ramakrishnan et al. (<a
+                        href="https://arxiv.org/pdf/2511.11826"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ 
+                        color: "var(--primary-color)",
+                        textDecoration: "none",
+                        fontWeight: 500
+                        }}
+                    >
+                        2025b
+                    </a>).<br/>
                 <span style={{ color: 'red'}}>Red:</span> structures from Ortiz et al. (in prep).
                 <span style={{ color: 'red'}}> *To be added</span></p>
             </div>

@@ -21,23 +21,30 @@ const Home = () => {
                             <hr/>
                             <p className="lead">
                             <strong>ODIN</strong> is a deep, wide-area imaging survey designed to study the large-scale
-                            structure of the universe and galaxy formation at cosmic noon (z  2). Using custom narrowband 
-                            filters with DECam, ODIN detects Lyman Alpha Emitters (LAEs) over 100 square degrees. For more 
-                            details, see our{" "}
+                            structure of the universe and galaxy formation at cosmic noon (z ≥ 2). Using custom narrowband 
+                            filters with DECam, ODIN detects Lyman alpha emitting galaxies (LAEs) across 100 square degrees. 
+                            For an overview of the survey and its science goals, see our{" "}
                             <a href="https://arxiv.org/abs/2309.10191" target="_blank" rel="noopener noreferrer"
                                 style={{color: "var(--secondary-color)", textDecorationColor: "var(--secondary-color)"}}
                             >
                                 overview paper
-                            </a>
-                            .
+                            </a>.
                             </p>
                             <p className="lead">
-                            This project allows users to create and explore 3D reconstructions of LAE protoclusters 
-                            using ODIN photometric data, combined with spectroscopic redshifts from DESI, Keck, 
-                            and Gemini. Users can adjust binning and smoothing parameters to visualize the cosmic 
-                            web in interactive tomographic maps, built using a probabilistic method that includes 
-                            both confirmed and unconfirmed LAEs (with unknown redshifts). A more detailed description of the
-                            reconstrction process will be published soon.
+                            This website provides interactive 3D visualizations of protoclusters detected in ODIN. These
+                            structures are reconstructed from photometric LAEs combined  with spectroscopic redshifts
+                            from the Dark Energy Spectroscopic Instrument (DESI), Keck Observatory, and the Gemini Telesopes. 
+                            These models are produced using a probabilistic 3D reconstruction method described{" "}
+                            <a href="https://arxiv.org/pdf/2511.11826" target="_blank" rel="noopener noreferrer"
+                                style={{color: "var(--secondary-color)", textDecorationColor: "var(--secondary-color)"}}
+                            >
+                                here
+                            </a>. Each visualization highlights the spatial distribution, extent, and morphology of high-redshift
+                            protoclusters traced by LAEs.
+                            </p>
+                            <p className="lead">
+                                To explore the reconstructions, click on the <span style={{ fontWeight: 500, fontStyle: "italic" }}>Protoclusters</span> tab above. 
+                                Additional fields and protoclusters will be added as the ODIN survey continues.
                             </p>
                         </div>
                         <div className="col-md-5">
