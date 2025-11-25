@@ -60,7 +60,7 @@ const SelectionPage = () => {
             <div className="mt-1">
                 <p>Protocluster candidates in the COSMOS and XMM-LSS fields.<br/>
                 <span style={{ color: 'orange'}}>Orange:</span> structures from Ramakrishnan et al. (<a
-                        href="https://arxiv.org/pdf/2511.11826"
+                        href="https://arxiv.org/abs/2511.11826"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ 
